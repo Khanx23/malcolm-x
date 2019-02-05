@@ -73,6 +73,10 @@ p {
 
 /* Navagation Bar */
 
+.nav-thing {
+	padding: 5% 20% 0;
+}
+
 nav {
 	background-color: black;
 }
@@ -290,5 +294,8 @@ color: #fff;
   .container-legacy {
     margin: opx;
   }
+  .nav-thing {
+	padding: 5% 20% 0;
+}
 
 }

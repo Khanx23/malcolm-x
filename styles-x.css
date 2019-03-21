@@ -156,11 +156,11 @@ color: #fff;
 }
 
 .testimonial-text {
-  font-size: 2rem;
+  font-size: 25px;
   line-height: 1.5;
   font-weight: bold;
   margin: auto;
-  width: 60%;
+  width: 65%;
 }
 
 .quote {

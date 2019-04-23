@@ -24,10 +24,11 @@ p {
 /* Headings */
 
 .big-heading {
-  font-size: 7rem;
+  font-size: 7.5rem;
   font-weight: 900;
   letter-spacing: 10px;
   line-height: 1.5;
+  text-shadow: 5px 5px #DC143C;
 }
 
 .section-heading {
@@ -38,12 +39,14 @@ p {
 
 .x-face {
   margin: auto;
+  margin-bottom: 3rem;
   text-align: center;
-  width: 30%;
+  width: 35%;
 }
 
 #muslimName {
-    letter-spacing: 4px;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
 }
 
 /* containers */
@@ -79,7 +82,7 @@ p {
 /* Navagation Bar */
 
 .nav-thing {
-	
+
 }
 
 nav {
@@ -228,13 +231,28 @@ color: #fff;
   }
 
   p {
-      text-align: justify;
+      text-align: center;
   }
 
   /* Navagation Bar */
 
   .navbar {
 
+  }
+
+  /* Timeline */
+
+  #timeline {
+
+  }
+
+  .p-timeline {
+    font-size: 1rem;
+  }
+
+  .tl-box {
+    margin: 1% auto 1%;
+    padding: 2% 1.5% 3%;
   }
 
   /* containers */
@@ -262,11 +280,13 @@ color: #fff;
     font-size: 1.3rem;
     line-height: 1.5;
     margin: auto;
-    width: 95%;
+    width: 100%;
   }
 
   .quote {
+    margin-top: 2px;
     font-size: 1rem;
+    text-align: center;
   }
 
   /* Letter */
@@ -297,14 +317,14 @@ color: #fff;
 
   .legacy-p {
     margin: 3% 8%;
-    text-align: left;
+    text-align: justify;
   }
 
   .container-legacy {
     margin: opx;
   }
   .nav-thing {
-	
+
 }
 
 }

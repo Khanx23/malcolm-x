@@ -4,9 +4,14 @@ html {
   scroll-behavior: smooth;
 }
 
+input {
+  background-color: black;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  background-color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,6 +24,31 @@ p {
   font-family: 'Open Sans', sans-serif;
   color: #afafaf;
   margin: 0px;
+}
+
+/* Header Scroll Bar */
+
+/* Style the header: fixed position (always stay at the top) */
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #343A40;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #DC143C;
+  width: 0%;
 }
 
 /* Headings */
@@ -39,7 +69,7 @@ p {
 
 .x-face {
   margin: auto;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   text-align: center;
   width: 35%;
 }
@@ -208,6 +238,25 @@ color: #fff;
 }
 
 /* Footer Section */
+
+.butt {
+  background-color: #d72323;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 100px;
+  margin-right: 44%;
+  border-radius: 5%;
+}
+
+.butt:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.4s;
+}
 
 #footer {
   background-color: #414141;
